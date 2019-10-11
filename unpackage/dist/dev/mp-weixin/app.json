@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/homestay/homestay",
+    "pages/tickets/tickets",
+    "pages/shop/shop",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#ff9800",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/homestay/homestay",
+        "iconPath": "static/tarbar/民宿_未.png",
+        "selectedIconPath": "static/tarbar/民宿_选中.png",
+        "text": "特价民宿"
+      },
+      {
+        "pagePath": "pages/tickets/tickets",
+        "iconPath": "static/tarbar/特价票_未.png",
+        "selectedIconPath": "static/tarbar/特价票选中.png",
+        "text": "折扣门票"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/tarbar/商城_未.png",
+        "selectedIconPath": "static/tarbar/商城选中.png",
+        "text": "特价商城"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tarbar/我的悠卡_未.png",
+        "selectedIconPath": "static/tarbar/我的悠卡_选中.png",
+        "text": "我的悠卡"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

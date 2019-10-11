@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/homestay/homestay",
+			"style": {
+				"navigationBarTitleText": "特价民宿"
+			}
+		},
+		{
+			"path": "pages/tickets/tickets",
+			"style": {
+				"navigationBarTitleText": "折扣门票"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "特产商城"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的悠卡"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#ff9800",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/homestay/homestay",
+				"iconPath": "static/tarbar/民宿_未.png",
+				"selectedIconPath": "static/tarbar/民宿_选中.png",
+				"text": "特价民宿"
+			},
+			{
+				"pagePath": "pages/tickets/tickets",
+				"iconPath": "static/tarbar/特价票_未.png",
+				"selectedIconPath": "static/tarbar/特价票选中.png",
+				"text": "折扣门票"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/tarbar/商城_未.png",
+				"selectedIconPath": "static/tarbar/商城选中.png",
+				"text": "特价商城"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tarbar/我的悠卡_未.png",
+				"selectedIconPath": "static/tarbar/我的悠卡_选中.png",
+				"text": "我的悠卡"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
