@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "特价民宿",
-  "usingComponents": {}
+  "usingComponents": {
+    "header": "/pages/homestay/components/header"
+  }
 }
